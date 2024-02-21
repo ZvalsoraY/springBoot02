@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 @RestController
 public class WeatherService {
-    public static final String HTTPS_API_TOMORROW = "https://api.tomorrow.io/v4/weather/forecast?location=42.3478,-71.0466&apikey=szsHvk0J5V1gEHj0Pkbz6krkhvszAoov";
+    public static final String HTTPS_API_TOMORROW = "https://api.tomorrow.io/v4/weather/forecast?location=42.3478,-71.0466&apikey=pNUtOp0ykI06tOU6W7ReCNFx8PlWQ39i";
     public static final String LOCATION = "";
     public static final String  API_KEY = "";
 
