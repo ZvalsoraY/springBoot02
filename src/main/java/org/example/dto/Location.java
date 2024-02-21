@@ -1,6 +1,12 @@
 package org.example.dto;
 
 public class Location {
-    public String lock1;
-    public String lock2;
+    public String latitude;
+
+    public Location(String latitude, String longitude) {
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
+    public String longitude;
 }

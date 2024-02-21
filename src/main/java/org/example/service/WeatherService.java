@@ -8,8 +8,8 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class WeatherService {
     public static final String HTTPS_API_TOMORROW = "https://api.tomorrow.io/v4/weather/forecast?location=42.3478,-71.0466&apikey=pNUtOp0ykI06tOU6W7ReCNFx8PlWQ39i";
-    public static final String LOCATION = "";
-    public static final String  API_KEY = "";
+    public static final String LOCATION = "42.3478, -71.0466";
+    public static final String  API_KEY = "pNUtOp0ykI06tOU6W7ReCNFx8PlWQ39i";
 
     @GetMapping("/weather")
     public String weatherResponse() {

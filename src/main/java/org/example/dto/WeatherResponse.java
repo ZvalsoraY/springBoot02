@@ -4,13 +4,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 
 public class WeatherResponse {
-    public String getLocation() {
-        return location;
-    }
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
+    private Location location;
+    private double avgMinutely;
+    private double avgHourly;
+    private double avgDaily;
 
-    public String location;
+    public WeatherResponse(Location location, double avgTemperatures, double avgTemperatures1, double avgTemperatures2) {
+    }
 }
